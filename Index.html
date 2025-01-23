@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINK - FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="Style.css">
+
+     <!-- TITULO COM ÍCONE -->
+    <title>Nintendo</title>
+    <link rel="shortcut icon" type="imagex/png" href="fotos/favicon.ico">
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- LOGO DA NINTENDO, PESQUISA E SEÇÕES DE LOGIN -->
+        <div class="head">
+            <img class="logoN" src="https://as1.ftcdn.net/jpg/04/56/00/94/1000_F_456009473_wYHdD82pNjFqx42ng03wLefX9ReG84KC.jpg" alt="Nintendo" style="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" style="max-width: 25px;"/>
+            </svg>
+            <input class="search" type="search" placeholder="Pesquisar">
+            <form>
+                <select class="form">
+                    <option>Todas as categorias</option>
+                    <option>Jogos</option>
+                    <option>Novidades e Eventos</option>
+                    <option>Assistência</option>
+                </select>
+            </form>
+
+            <div class="sep">
+                 <!-- OUTROS ÍCONES -->
+                 <div class="separacao">
+                    <!-- Assistência -->
+                     <div class="assis">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="18" role="presentation" alt="" data-testid="SupportIcon" size="18" color="currentColor"><path d="M28.126.862H3.876A3.904 3.904 0 0 0 0 4.757v17.838a3.905 3.905 0 0 0 3.875 3.896h8.375c.125 0 .125 0 .125.125l3.626 4.397a.122.122 0 0 0 .125.125c.125 0 .125 0 .25-.125L20 26.616a.122.122 0 0 1 .124-.125h8.001A3.904 3.904 0 0 0 32 22.595V4.757A3.903 3.903 0 0 0 28.126.862zM17.954 20.91a2.018 2.018 0 0 1-.438.64 2.062 2.062 0 0 1-1.446.58 2.092 2.092 0 0 1-.802-.154 1.944 1.944 0 0 1-.652-.43 1.98 1.98 0 0 1-.427-.642 2.119 2.119 0 0 1-.001-1.59 1.97 1.97 0 0 1 .43-.65 2.055 2.055 0 0 1 .643-.432 2.078 2.078 0 0 1 1.613 0 2.152 2.152 0 0 1 .64.428l.002.001a2.045 2.045 0 0 1 .438 2.25zm2.964-10.055a4.505 4.505 0 0 1-.662 1.159 5.04 5.04 0 0 1-.861.844l-.822.622a6.01 6.01 0 0 0-.626.538.766.766 0 0 0-.231.426l-.303 1.923h-2.517l-.222-2.13a1.824 1.824 0 0 1 .193-1.127 3.152 3.152 0 0 1 .648-.812 7.965 7.965 0 0 1 .838-.658 6.94 6.94 0 0 0 .782-.626 3.116 3.116 0 0 0 .574-.716 1.726 1.726 0 0 0 .208-.873 1.287 1.287 0 0 0-.112-.55 1.213 1.213 0 0 0-.318-.414 1.482 1.482 0 0 0-.506-.275 2.946 2.946 0 0 0-1.628.018 3.595 3.595 0 0 0-.666.277 8.824 8.824 0 0 0-.49.294.966.966 0 0 1-1.483-.33l-.872-1.378.24-.212a8 8 0 0 1 .86-.657 6.234 6.234 0 0 1 1.023-.55 6.4 6.4 0 0 1 1.192-.37 6.63 6.63 0 0 1 3.248.15 4.301 4.301 0 0 1 1.475.826 3.736 3.736 0 0 1 .966 1.314 4.161 4.161 0 0 1 .34 1.703 4.304 4.304 0 0 1-.268 1.584z" fill="currentColor" fill-rule="evenodd"></path></svg><a href="" class="ass1">Assistência</a>
+                     </div>
+
+            <!-- Lista de Desejos -->
+                    <div class="assis">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                        </svg>
+                        <a href="" class="ass1">Lista de desejos</a>
+                    </div>
+
+            <!-- Iniciar sessão -->
+                    <div class="assis">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                        <a href="" class="ass1">Iniciar sessão / Criar uma conta</a>
+                    </div>
+
+             <!-- Idioma -->
+                    <img src="https://assets.nintendo.com/image/upload/c_scale,w_24,q_auto/ncom/global/flags-change-region/FlagBrazilIconRegionSelect.png" alt="Flag of Brazil" loading="lazy">
+                </div>
+            </div>
+           
+        </div>
+
+        <!-- CATEGORIAS COMO JOGOS, NINTENDO SWITCH E NOVIDADES -->
+
+         <!-- Jogos -->
+        <div class="outracategoria">
+            <div>
+                <form class="formulario">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" role="presentation" alt="" data-testid="DPadIcon" size="16" color="currentColor"><path d="M30.1 10.4h-8.5V1.9c0-1-.8-1.9-1.9-1.9h-7.5c-1 0-1.9.8-1.9 1.9v8.5H1.9c-1 0-1.9.8-1.9 1.9v7.5c0 1 .8 1.9 1.9 1.9h8.5v8.5c0 1 .8 1.9 1.9 1.9h7.5c1 0 1.9-.8 1.9-1.9v-8.5h8.5c1 0 1.9-.8 1.9-1.9v-7.5c-.1-1.1-.9-1.9-2-1.9zM7.5 16.9H3.8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h3.8c.5 0 .9.4.9.9s-.5.9-1 .9zm9.4 11.3c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3.8c0-.5.4-.9.9-.9s.9.4.9.9v3.8zm0-20.7c0 .5-.4.9-.9.9s-.9-.4-.9-.9V3.8c0-.5.4-.9.9-.9s.9.4.9.9v3.7zm11.3 9.4h-3.8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h3.8c.5 0 .9.4.9.9.1.5-.3.9-.9.9z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor"></path></svg>
+                    <select class="form">
+                        <option>Jogos</option>
+                    </select>
+                </form>
+            </div>
+
+            <!-- Nintendo Switch -->
+            <div>
+                <form class="formulario">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" role="presentation" alt="" data-testid="SwitchIcon" size="16" color="currentColor"><path d="M13.54 0a.18.18 0 0 1 .17.17v31.66a.15.15 0 0 1-.17.17H8.11a6.86 6.86 0 0 1-6.85-6.8V6.74A6.81 6.81 0 0 1 8.11 0h5.43zm10.4 0a6.77 6.77 0 0 1 6.8 6.74V25.2a6.82 6.82 0 0 1-6.85 6.8h-5.43a.15.15 0 0 1-.17-.17V.17c0-.11.11-.17.22-.17h5.43zM7.49 19.6a1.26 1.26 0 1 0 0 2.51 1.32 1.32 0 0 0 1.31-1.25 1.28 1.28 0 0 0-1.31-1.26zm17-3.6a2.86 2.86 0 0 0-2.85 2.86A2.86 2.86 0 1 0 24.51 16zm-14.28.86a1.26 1.26 0 1 0 0 2.51 1.35 1.35 0 0 0 1.31-1.26 1.32 1.32 0 0 0-1.29-1.25zm-5.49 0a1.26 1.26 0 1 0 0 2.51 1.36 1.36 0 0 0 1.32-1.26 1.28 1.28 0 0 0-1.3-1.25zm2.75-2.69a1.26 1.26 0 1 0 0 2.52 1.37 1.37 0 0 0 1.33-1.26 1.28 1.28 0 0 0-1.31-1.26zm17-4a1.36 1.36 0 0 0-1.31 1.26 1.32 1.32 0 1 0 1.31-1.26zm-17-5.08a2.86 2.86 0 1 0 0 5.71 2.86 2.86 0 0 0 2.85-2.86 2.82 2.82 0 0 0-2.83-2.85zm19.77 2.4a1.26 1.26 0 1 0 1.31 1.25 1.32 1.32 0 0 0-1.29-1.25zm-5.43 0a1.26 1.26 0 1 0 1.31 1.25 1.29 1.29 0 0 0-1.29-1.25zm2.68-2.75A1.36 1.36 0 0 0 23.2 6a1.32 1.32 0 1 0 1.31-1.26z" fill="currentColor" fill-rule="evenodd"></path></svg>
+                    <select class="form">
+                        <option>Nintendo Switch</option>
+                    </select>
+                </form>
+            </div>
+
+            <!-- Nintendo Switch -->
+            <div>
+                <form class="formulario">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" role="presentation" alt="" data-testid="NewsIcon" size="16" color="currentColor"><path fill="currentColor" d="M31.92 3.62a1.945 1.945 0 0 0-1.953-1.932H1.874A1.945 1.945 0 0 0-.08 3.62v10.068h32zm-32 11.692v7.201a2.027 2.027 0 0 0 1.954 1.998h8.711a2.777 2.777 0 0 1 2.178 1.073q2.97 4.736 3.315 4.728.344-.009 3.315-4.837a2.677 2.677 0 0 1 2.177-.964h8.398a2.027 2.027 0 0 0 1.953-1.998v-7.201zm14 5.15c0 .056-.07.1-.155.1H3.077c-.086 0-.156-.044-.156-.1v-1.051c0-.055.07-.1.156-.1h10.688c.086 0 .156.045.156.1z"></path></svg>
+                    <select class="form">
+                        <option>Novidades e Eventos</option>
+                    </select>
+                </form>
+            </div>
+
+        </div>
+    </header>
+
+    <body>
+        <!-- PRIMEIRA SEÇÃO COM IMAGEM DE DONKEY KONG -->
+        <section class="secao1">
+            <div class="container">
+                <img class="imgdk" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_1500/ncom/en_US/merchandising/center-stage-banner/Donkey%20Kong%20Country%20Returns%20HD/2880x900-CS-Desktop-DKCRHD" alt="Donkey Koung Country Returns">
+            </div>
+        </section>
+
+        <!-- SEGUNDA SEÇÃO COM TÍTULOS -->
+        <section class="secao2">
+            <div class="container2">
+                <h2>Prepare-se para uma aventura cheia de bananas em 16/01/2025 – exclusivamente para o console Nintendo Switch!</h2>
+            </div>
+
+            <!-- BOTÃO SAIBA MAIS -->
+            <div class="link">
+                <a href="https://www.nintendo.com/pt-br/store/products/donkey-kong-country-returns-hd-switch/" class="saibamais">Saiba Mais</a>
+            </div>
+
+            <!-- LIVRE PARA TODOS OS PÚBLICOS -->
+            <div>
+                <p class="p">L</p>
+            </div>
+
+            <p class="violenciafantasiosa">Violência Fantasiosa</p>
+
+        </section>
+
+        <!-- TERCEIRA SEÇÃO - GAMES DIVULGADOS -->
+        <sectiom class="secao3">
+            <h2 id="emdestaque">Em destaque</h2>
+            <div class="container--card">
+                <div class="card">
+                    <!-- Mario & Luigi Brothership -->
+                    <div>
+                        <img class="mel" src="fotos/Mario_&_Luigi_-_Brothership_(cover_art).jpg" alt="Mario & Luigi Brothership" style="">
+                        <h3>Mario & Luigi Brothership</h3>
+                        <br>
+                        <p class="ja">Já disponível</p>
+                        <p class="nintendoswitch"><span>|</span> Nintendo Switch</p>
+                    </div>
+                    
+                    <!-- The Legend of Zelda: Echoes of Wisdom -->
+                    <div>
+                        <div class="foto">
+                            <img class="zelda" src="fotos/zelda.avif" alt="The Legend of Zelda: Echoes of Wisdom" style="">
+                            <h3 class="h3">The Legend of Zelda Echoes of Wisdom</h3>
+                            <p class="ja">Já disponível</p>
+                            <p class="nintendoswitch SW2"><span>|</span> Nintendo Switch</p>
+                        </div>
+                    </div>
+                   
+                    <!-- Super Mario Party Jamboree -->
+                    <div class="foto">
+                        <div>
+                            <img class="jamboree" src="fotos/jamboree.avif" alt="Super Mario Party Jamboree" style="">
+                            <h3>Super Mario Party Jamboree</h3>
+                            <br>
+                            <p class="ja">Já disponível</p>
+                            <p class="nintendoswitch"><span>|</span> Nintendo Switch</p>
+                        </div>
+                    </div>
+
+                    <!-- Fitness Boxing 3: Your Personal Trainer -->
+                    <div class="foto">
+                        <div>
+                            <img class="fitness" src="fotos/fitness.avif" alt="Fitness Boxing 3: Your Personal Trainer" style="">
+                            <h3>Fitness Boxing 3: Your Personal Trainer</h3>
+                            <p class="demo">Versão demo gratuita</p>
+                            <p class="nintendoswitch"><span>|</span> Nintendo Switch</p>
+                        </div>
+                    </div>
+
+                    <!-- just dance 2025 edition -->
+                    <div class="foto">
+                        <div>
+                            <img class="justdance" src="fotos/just dance.avif" alt="Just Dance 2025 Edition" style="">
+                            <h3>Just Dance 2025 Edition</h3>
+                            <br>
+                            <p class="ja">Já disponível</p>
+                            <p class="nintendoswitch"><span>|</span> Nintendo Switch</p>
+                        </div>
+                    </div>
+
+                    <!-- xenoblade chronicles x definitive edition -->
+                    <div class="foto" id="fim">
+                        <div>
+                            <img class="xeno" src="fotos/xenoblade.avif" alt="Xenoblade Chronicles X Definitive Edition" style="">
+                            <h3>Xenoblade Chronicles X Definitive Edition</h3>
+                            <p class="reserve">Reserve já</p>
+                            <p class="nintendoswitch"><span>|</span> Nintendo Switch</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </sectiom>
+
+        <!-- QUARTA SEÇÃO - LOJA DE JOGOS -->
+        <section class="secao4">
+            <div>
+                <h2 class="lojadejogos">Loja de Jogos</h2>
+                <div class="lojadejogos">
+                    <img class="store" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_1200/ncom/pt_BR/merchandising/homepage-banners/4576x744_LATAM_GameStoreBanner_01_PT" alt="Loja de Jogos" style="">
+                </div>
+                <h2 class="cbj">Compre, baixe e jogue agora mesmo!<a href="https://www.nintendo.com/pt-br/store/games/" class="comprarjogos">Comprar jogos</a></h2>
+                <br><br><br><br>
+            </div>
+        </section>
+
+        <!-- QUINTA SEÇÃO - Conheça o Console -->
+        <section class="secao5">
+            <div>
+                <h2 class="lojadejogos">Conheça os consoles</h2>
+                <div class="lojadejogos">
+                    <img class="ns" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_1200/ncom/en_US/switch/site-design-update/switch-family-es" alt="Conheça os consoles" style="">
+                </div>
+                <h2 class="cbj">Nintendo Switch<a href="https://www.nintendo.com/pt-br/switch/" class="comprarjogos">Mais detalhes</a></h2>
+                <br><br><br><br>
+            </div>
+        </section>
+
+        <!--  SEXTA SEÇÃO - Novidades e Notícias Superiores -->
+        <section class="secao6">
+                <h2 class="lojadejogos">Novidades</h2>
+                <div class="Lnoticias">
+                    <div class="noticia">
+                        <img class="nxeno" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_800/ncom/en_US/articles/2025/heres-your-latest-look-at-xenoblade-chronicles-x-definitive-edition/1280x720_Switch_XBCXDE_2ndTrailer_Thumbnail_NoLogo" alt="Notícias de Xenoblade" style=""> <br>
+                        <p class="data">09/01/25</p>
+                        <a href="https://www.nintendo.com/pt-br/whatsnew/confira-as-ultimas-novidades-de-xenoblade-chronicles-x-definitive-edition-definitive-edition/" class="confira">Confira as últimas novidades de Xenoblade Chronicles X: Definitive Edition! Definitive Edition</a>
+                        <br><br><br>
+                        <p class="data">O ano é 2054 e a Terra foi destruída por uma guerra intergaláctica. Um pequeno número de sobreviventes que escapou da destruição, a bordo da...<a href="https://www.nintendo.com/pt-br/whatsnew/confira-as-ultimas-novidades-de-xenoblade-chronicles-x-definitive-edition-definitive-edition/" class="saiba">Saiba mais</a></p>
+                    </div>
+        
+                    <div class="noticiadk">
+                        <img class="dk" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_800/ncom/en_US/articles/2025/see-a-few-of-the-top-bananas-in-donkey-kong-country-returns-hd/2250x1266_DK-Cast_PT" alt="Notícias de Donkey Kong" style=""> <br>
+                        <p class="data">08/01/25</p>
+                        <a href="https://www.nintendo.com/pt-br/whatsnew/os-personagens-mais-bananasticos-estao-de-volta-em-donkey-kong-country-returns-hd/" class="confira">Os personagens mais “bananásticos” estão de volta em Donkey Kong Country Returns HD!</a>
+                        <br><br><br>
+                        <p class="data">Pegaram os cachos de bananas do Donkey Kong! Agora, cabe a Donkey Kong e Diddy Kong pega-los de volta! O jogo Donkey Kong Country™...<a href="https://www.nintendo.com/pt-br/whatsnew/os-personagens-mais-bananasticos-estao-de-volta-em-donkey-kong-country-returns-hd/" class="saiba">Saiba mais</a></p>
+                    </div>
+                </div>
+
+                <!-- NOTÍCIAS INFERIORES -->
+                 <!-- NOTÍCIA 1 -->
+                <div class="noticia1">
+                    <div class="noticiaJ">
+                        <img class="free" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_800/ncom/en_US/articles/2025/stock-up-on-quality-games-for-free/2250x1266_FTP2024_PT" alt=" Jogos Gratuitos" style="">
+                        <p class="data">06/01/25</p>
+                        <a href="https://www.nintendo.com/pt-br/whatsnew/abasteca-a-sua-colecao-de-jogos-com-qualidade-gratuitamente/" class="confira1">Abasteça a sua coleção de jogos com qualidade – gratuitamente!</a>
+                        <br><br><br>
+                        <a href="https://www.nintendo.com/pt-br/whatsnew/abasteca-a-sua-colecao-de-jogos-com-qualidade-gratuitamente/" class="saiba">Saiba mais</a>
+                        <br><br>
+                    </div>
+
+                    <!-- NOTÍCIA 2 -->
+                    <div class="noticiaT">
+                        <img class="free" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_800/ncom/en_US/articles/2025/how-to-transfer-your-stuff-to-another-nintendo-switch-system/2250x1266_System_Transfer_2024_PT" alt="Transferências de dados salvos" style="">
+                        <p class="data">06/01/25</p>
+                        <a href="https://www.nintendo.com/pt-br/whatsnew/como-transferir-os-seus-dados-para-um-outro-console-nintendo-switch/" class="confira1">Como transferir os seus dados para um outro console Nintendo Switch</a>
+                        <br><br>
+                        <a href="https://www.nintendo.com/pt-br/whatsnew/como-transferir-os-seus-dados-para-um-outro-console-nintendo-switch/" class="saiba">Saiba mais</a>
+                        <br><br><br>
+                    </div>
+                    <!-- NOTÍCIA 3 -->
+                    <div class="noticiaT">
+                        <img class="free" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_800/ncom/en_US/articles/2024/not-sure-where-to-start-here-are-some-recommendations/2250x1266_Ncom_GameRec2024_PT" alt="Recomendações de jogos" style="">
+                        <p class="data">30/12/24</p>
+                        <a href="https://www.nintendo.com/pt-br/whatsnew/nao-sabe-muito-bem-por-onde-comecar-aqui-vao-algumas-recomendacoes-de-jogos-para-te-ajudar/" class="confira1">Não sabe muito bem por onde começar? Aqui vão algumas recomendações de jogos para te...</a>
+                        <br><br>
+                        <a href="https://www.nintendo.com/pt-br/whatsnew/nao-sabe-muito-bem-por-onde-comecar-aqui-vao-algumas-recomendacoes-de-jogos-para-te-ajudar/" class="saiba">Saiba mais</a>
+                        <br><br>
+                    </div>
+
+                    <!-- NOTÍCIA 4 -->
+                    <div class="noticiaT">
+                        <img class="free" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_800/ncom/en_US/articles/2024/get-a-3-month-nintendo-switch-online-membership-when-you-buy-super-mario-party-jamboree/2250x1266_SMPJ_NSO_PT" alt="Recomendações de jogos" style="">
+                        <p class="data">26/12/24</p>
+                        <a href="https://www.nintendo.com/pt-br/whatsnew/receba-uma-assinatura-individual-de-3-meses-do-nintendo-switch-online-com-a-compra-do-jogo-super-mario-party-jamboree/" class="confira1">Receba uma assinatura individual de 3 meses do Nintendo Switch Online...</a>
+                        <br><br>
+                        <a href="https://www.nintendo.com/pt-br/whatsnew/receba-uma-assinatura-individual-de-3-meses-do-nintendo-switch-online-com-a-compra-do-jogo-super-mario-party-jamboree/" class="saiba">Saiba mais</a>
+                        <br><br>
+                    </div>
+                </div>
+
+                <div class="botaoconferir">
+                    <a href="https://www.nintendo.com/pt-br/whatsnew/" class="saibamais"> Confira todas as notícias</a>
+                </div>
+        </section>
+
+        <!--  SÉTIMA SEÇÃO - PAGAR COM CARTÃO OU PIX -->
+        <section class="secao7">
+            <h2 class="lojadejogos">Pague com Boleto ou PIX agora!</h2>
+            <img class="pixpay" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_1200/ncom/pt_BR/merchandising/homepage-banners/eShopBanner_BR_withPixBoleto_border" alt="Pague no pix ou cartão." style="">
+
+            <p class="cartao">Perfeito para quem gosta de jogar: Cartão presente digital do Nintendo eShop <a class="saibamais compre" href="https://store.nintendo.com.br/games?_gl=1*196yatq*_gcl_aw*R0NMLjE3MzY2MDk0NTEuQ2owS0NRaUF5b2k4QmhEdkFSSXNBT19DRHNEay1uYjc0YkxuMzBRbVg0Y0FmTk42T1ppZ1FXS1NRUFk0QkhZNTBXajVmdWY0LVM4YVNpa2FBcDU5RUFMd193Y0I.*_gcl_au*MzkyMzQzOTc3LjE3MzYzMzczMTM.*_ga*Njg5MjYyMzE3LjE3MzYzMzczMTQ.*_ga_F6ERC4HMNZ*MTczNjg1Nzc0My44LjEuMTczNjg1Nzg4MS4wLjAuMA..">Compre agora</a></p> 
+        </section>
+
+        <!-- OITAVA SEÇÃO - MAIS VENDIDOS DO NINTENDO SWITCH -->
+
+        <section class="secao7">
+                <h2 class="lojadejogos">Mais vendidos do Nintendo Switch  <span class="barra">|</span> <a class="listacompleta" href="https://www.nintendo.com/pt-br/store/games/best-sellers/#sort=df&p=0">Ver lista completa</a></h2>
+
+                <!-- Lista de jogos disponíveis -->
+                 <!-- SUPER MARIO JAMBOREE -->
+                 <div class="foto1">
+                        <div>
+                            <img class="gameN" src="fotos/jamboree.avif" alt="Super Mario Party Jamboree" style=""><br>
+                            <p class="titulo">Super Mario Party Jamboree</p>
+                            <p class="data1">17/10/24</p>
+                            <br>
+                            <p class="valor">R$ 299,00</p>
+                            <p class="nintendoswitch"><span>|</span> Nintendo Switch  <svg class="heart" xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16"  style="width: auto; height: 28px; color: #F50000;">
+                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                              </svg></p>
+                        </div>
+
+                        <!-- MINECRAFT -->
+                        <div class="game">
+                            <img  class="gameN" src="fotos/minecraft.avif" alt="Minecraft" style=""><br>
+                            <p class="titulo">Minecraft</p>
+                            <p class="data1">03/12/20</p>
+                            <br><br>
+                            <p class="valor">R$ 99,00</p>
+                            <p class="nintendoswitch"><span>|</span> Nintendo Switch  <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16"  style="width: auto; height: 28px; color: #F50000;">
+                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                              </svg></p>
+                        </div>
+
+                        <!-- STARDEW VALLEY -->
+                        <div class="game">
+                            <img  class="gameN" src="fotos/stardew.jpg" alt="Stardew Valley" style=""><br>
+                            <p class="titulo">Stardew Valley</p>
+                            <p class="data1">02/05/19</p>
+                            <br><br>
+                            <p class="valor">R$ 24,99</p>
+                            <p class="nintendoswitch"><span>|</span> Nintendo Switch  <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16"  style="width: auto; height: 28px; color: #F50000;">
+                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                              </svg></p>
+                        </div>
+
+                        <!-- MARIO KART 8 DELUXE -->
+                        <div class="game">
+                            <img  class="gameN" src="fotos/mario kart.avif" alt="Mario Kart™ 8 Deluxe" style=""><br>
+                            <p class="titulo">Mario Kart™ 8 Deluxe</p>
+                            <p class="data1">28/04/17</p>
+                            <br><br>
+                            <p class="valor">R$ 299,99</p>
+                            <p class="nintendoswitch"><span>|</span> Nintendo Switch  <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16"  style="width: auto; height: 28px; color: #F50000;">
+                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                              </svg></p>
+                        </div>
+
+                        <!-- Nintendo Switch™ Sports -->
+                        <div class="game">
+                            <img  class="gameN" src="fotos/sports.avif" alt="Nintendo Switch™ Sports" style=""><br>
+                            <p class="titulo">Nintendo Switch™ Sports</p>
+                            <p class="data1">29/04/22</p>
+                            <br><br>
+                            <p class="valor">R$ 199,99</p>
+                            <p class="nintendoswitch"><span>|</span> Nintendo Switch  <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16"  style="width: auto; height: 28px; color: #F50000;">
+                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                              </svg></p>
+                        </div>
+
+                        <!-- LEGO® NINJAGO® O Filme: Video Game -->
+                        <div class="game">
+                            <img class="gameN" src="fotos/ninjago.jpeg" alt="LEGO® NINJAGO® O Filme: Video Game" style=""><br>
+                            <p class="titulo">LEGO® NINJAGO® O Filme: Video Game</p>
+                            <p class="data1">07/09/22</p>
+                            <br><br>
+                            <p class="valor">R$ 249,99</p>
+                            <p class="nintendoswitch"><span>|</span> Nintendo Switch  <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16"  style="width: auto; height: 28px; color: #F50000;">
+                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                              </svg></p>
+                        </div>
+
+                        <a class="listacompletajogos" href="https://www.nintendo.com/pt-br/store/games/best-sellers/#sort=df&p=0"> Ver lista completa</a>
+                </div>
+        </section>
+
+        <!-- LOGO DA NINTENDO E REDES SOCIAIS -->
+        <section class="secao8">
+            <div class="retangulo">
+                <img src="fotos/nintendo.png" alt="Nintendo" style="width: 228px; height: 70px;">
+                <div class="icon">
+                    <img class="fcicon" src="fotos/fcicon.webp" alt="Facebook" style="width: 30px; height: 30px;">
+                    <img class="fcicon" src="fotos/insticon.png" alt="Instagram">
+                    <img src="fotos/twitericon.png" alt="Twiter" class="fcicon">
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE NINTENDO E OUTRAS INFORMAÇÕES -->
+        <sectiom class="secao9">
+            <!-- PRIMEIRA COLUNA -->
+            <div class="divisao">
+                <div class="info">
+                    <a class="sobreN" href="">Sobre a Nintendo (Em Inglês)</a>
+                </div>
+                <a class="sobreNin" href="">Responsabilidade social corporativa</a>
+            </div>
+
+            <!-- SEGUNDA COLUNA -->
+            <div class="divisao1">
+                <div class="info">
+                    <a class="sobreN" href="">Loja</a>
+                </div>
+                <a class="sobreNin" href="">Jogos</a><br>
+                <a class="sobreNin" href="">Hardware</a><br>
+                <a class="sobreNin" href="">Oferta e Promoções</a><br>
+                <a class="sobreNin" href="">Serviços Online</a><br>
+            </div>
+
+            <!-- TERICERA COLUNA -->
+            <div class="divisao2">
+                <div class="info">
+                    <a class="sobreN" href="">Assistência</a>
+                </div>
+                <a class="sobreNin" href="">Nintendo Switch</a><br>
+                <a class="sobreNin" href="">Conta Nintendo</a><br>
+                <a class="sobreNin" href="">Outro consoles</a><br>
+                <a class="sobreNin" href="">Reparo</a><br>
+                <a class="sobreNin" href="">Garantia</a><br>
+                <a class="sobreNin" href="">Informações sobre produtos licenciados</a><br>
+            </div> 
+
+            <!-- QUARTA COLUNA-->
+            <div class="divisao3">
+                <div class="info">
+                    <a class="sobreN" href="">País</a>
+                </div>
+                <a class="sobreNin" href="">Informação para os pais</a><br>
+                <a class="sobreNin" href="">Controle dos pais</a><br>
+                <div class="info">
+                    <a class="sobreN" href="">Comunidade</a>
+                </div>
+                <a class="sobreNin" href="">Diretrizes Comunitárias</a><br>
+                <a class="sobreNin" href="">Princípios de segurança online</a><br>
+            </div>
+
+            <!-- QUINTA COLUMA -->
+            <div class="divisao3">
+                <div class="info">
+                    <a class="sobreN" href="">Privacidade</a>
+                </div>
+                <a class="sobreNin" href="">Políticas de Privacidade</a><br>
+                <a class="sobreNin" href="">Cookies e anúncio com base em interesses</a><br>
+                <div class="info">
+                    <a class="sobreN" href="">Documentos e políticas</a>
+                </div>
+                <a class="sobreNin" href="">Precauções de segurança e saúde</a><br>
+            </div>
+
+        </sectiom>
+    </body>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="flex">
+            <div style="max-width: 860px;">
+                <p style="max-width: 860px;">© Nintendo. Os jogos são propriedade de seus respectivos donos. Nintendo of America Inc. A sede está localizada em Redmond, Washington (EUA).</p>
+            </div>
+            <div class="flex1">
+                <a href="" style="color: white; font-size: 13px; ">Fale Conosco</a>
+                <a href="" style="color: white; font-size: 13px; ">Termos de uso</a>
+                <div class="bandeira">
+                    <img src="https://assets.nintendo.com/image/upload/c_scale,w_24,q_auto/ncom/global/flags-change-region/FlagBrazilIconRegionSelect.webp" alt="Ícone do Brasil" style="border: 1px solid white;"><a href="" style="font-weight: bold; color: white;">Português (Brasil)</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
