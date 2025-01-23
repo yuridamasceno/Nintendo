@@ -1,0 +1,1317 @@
+/* GERAL */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 50px;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(72, 72, 72);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    max-width: 885px;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(72, 72, 72);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+span {
+    color: #F50000;
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+option {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+/* HEADER */
+
+.head {
+    color: rgb(72, 72, 72);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid rgba(72, 72, 72, 0.252);;
+}
+
+.logoN {
+    width: 105px; 
+    height: 52px;
+}
+
+/* HEADER - Pesquisa */
+.search{
+    outline: none;
+    font-size: 20px;
+    height: 40px;
+    width: 300px;
+    border: none;
+}
+
+.form {
+    color: black;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+.form:hover {
+    color: #940017;
+}
+
+/* HEADER - Outros ícones */
+
+.sep {
+    margin-left: 500px;
+}
+
+.assis {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: bold;
+    gap: 5px
+}
+
+.ass1 {
+    color: black;
+}
+
+.ass1:hover {
+    color: #940017;
+}
+
+
+.separacao {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* HEADER - Categoria como Jogos, Nintendo Switch e Novidades */
+
+/* Jogos */
+
+.formulario {
+    display: flex;
+    align-items: center;
+}
+
+.outracategoria {
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    gap: 50px;
+}
+
+/* SEÇÕES */
+
+/* PRIMEIRA SEÇÃO */
+
+.container {
+    margin-left: 45px;
+    margin-top: 107px;
+}
+
+.imgdk {
+    border-radius: 25px;
+    width: 1700px; 
+    height: 500px;
+}
+
+.secao1 {
+    max-width: 1800px;
+    height: 450px;
+    background-color: #668A26;
+    display: flex;
+    align-items: center;
+}
+
+/* SEGUNDA SEÇÃO */
+
+.p {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 20px;
+    max-width: 60px;
+    background-color: #2BA149;
+    color: white;
+    font-weight: bolder;
+    border-radius: 7px;
+}
+
+.saibamais {
+    font-size: 20px;
+    background-color: #F50000;
+    border-radius: 15px;
+    padding: 15px 25px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+}
+
+.saibamais:hover  {
+    padding: 25px 30px;
+    background-color: #940017;
+    transition-delay: 100ms;
+    transition-duration: 150ms;
+}
+
+.secao2 {
+    max-width: 1800px;
+    height: 174px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(190, 185, 185, 0.33);
+    padding-left: 190px;
+    gap: 42px;
+    margin-top: 60px;
+}
+
+
+.violenciafantasiosa {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(72, 72, 72);
+}
+
+/* TERCEIRA SEÇÃO */
+
+#emdestaque {
+    margin-left: 190px;
+    margin-top: 50px;
+}
+
+/* FOTOS DOS JOGOS */
+
+.mel {
+    width: 280px;
+    height: 200px;
+    border-radius: 11px;
+}
+
+.zelda {
+    width: 280px;
+    height: 200px;
+    border-radius: 11px;
+}
+
+.jamboree {
+    width: 280px;
+    height: 200px;
+    border-radius: 11px;
+}
+
+.fitness{
+    width: 280px;
+    height: 200px;
+    border-radius: 11px;
+}
+
+.justdance {
+    width: 280px;
+    height: 200px;
+    border-radius: 11px;
+}
+
+.xeno {
+    width: 280px;
+    height: 200px;
+    border-radius: 11px;
+}
+/* ------------------------------------------------- */
+.card {
+    max-width: 283px;
+    border: 1px solid rgb(72 72 72 / 23%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container--card {
+    margin-left: 38px;
+    margin-top: 40px;
+    max-width: 320px;
+}
+
+.demo {
+    color: white;
+    background-color: #2C54CF;
+    width: 160px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.foto {
+    margin-left: 50px;
+    border: 1px solid rgb(72 72 72 / 23%);
+    border-radius: 10px;
+}
+
+.ja {
+    color: white;
+    background-color: #F50000;
+    width: 94px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nintendoswitch {
+    color: rgb(72, 72, 72);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 18px;
+    margin-bottom: 16px;
+}
+
+.reserve {
+    color: white;
+    background-color: #2C54CF;
+    width: 88px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.arrow {
+    font-size: 50px;
+    color: #B5B5B5;
+    background-color: #00000082;
+    padding: 150px 30px;
+    border-radius: 20px;
+}
+
+/* QUARTA SEÇÃO */
+
+.secao4 {
+    border-top: 1px solid rgb(72 72 72 / 23%);
+    border-bottom: 1px solid rgb(72 72 72 / 23%);;
+}
+
+.lojadejogos {
+    margin-left: 350px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.store {
+    width: 1100px;
+    height: 180px;
+    border-radius: 18px;
+}
+
+.cbj {
+    font-size: 21px;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+.comprarjogos {
+    position: relative;
+    font-size: 20px;
+    background-color: #F50000;
+    border-radius: 15px;
+    padding: 15px 25px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    margin-left: 30px;
+}
+
+.comprarjogos:hover  {
+    padding: 20px 30px;
+    background-color: #940017;
+    transition-delay: 100ms;
+    transition-duration: 150ms;
+}
+
+/* QUINTA SEÇÃO */
+
+.secao5 {
+    border-bottom: 1px solid rgb(72 72 72 / 23%);;
+}
+
+.ns {
+    width: 1100px;
+    height: 504px;
+    border-radius: 18px;
+}
+
+/* SEXTA SEÇÃO */
+
+/* Noticias Superiores */
+
+.secao6 {
+    border-bottom: 1px solid rgb(72 72 72 / 23%);
+    padding-bottom: 55px;
+}
+
+.Lnoticias {
+    display: flex;
+}
+
+.noticia {
+    max-width: 557px;
+    margin-left: 350px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.nxeno {
+    width: 555px; 
+    height: 312px; 
+    border-radius: 20px;
+}
+
+.dk {
+    width: 555px;
+    height: 312px;
+    border-radius: 20px;
+}
+
+.noticiadk {
+    max-width: 557px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.data {
+    color: rgb(93 87 87 / 87%);
+    margin: 10px 0;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.confira {
+    font-weight: bold;
+    color: rgb(60 56 56);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.confira:hover {
+    color: #940017;
+}
+
+.saiba {
+    color: #F50000;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.saiba:hover {
+    color: #940017;
+}
+
+
+/* Noticias Inferiores */
+
+.noticia1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.free {
+    width: 260px;
+    height: 146px;
+    border-radius: 20px;
+}
+
+.noticiaJ {
+    max-width: 262px;
+    margin-left: 350px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.noticiaT {
+    max-width: 262px;
+    margin-left: 35px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.confira1 {
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(60 56 56);
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.confira1:hover {
+    color: #940017;
+}
+
+
+/* Botão Inferior das notícias */
+
+.botaoconferir {
+    margin-left: 350px;
+}
+
+.cartao {
+    color: rgba(25, 12, 12, 0.598);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.compre {
+    margin-left: 30px;
+}
+
+/* SÉTIMA SEÇÃO */
+
+.secao7 {
+    border-bottom: 1px solid rgb(72 72 72 / 23%);
+    padding-bottom: 55px;
+}
+
+.pixpay {
+    width: 1145px;
+    height: 245px;
+    border-radius: 20px;
+    margin-left: 350px;
+}
+
+.barra { 
+    color: rgb(60 56 56 / 30%);
+    font-size: 39px;
+}
+
+.listacompleta {
+    color: #F50000;
+    font-size: 15px;
+}
+
+.listacompleta:hover {
+    color: #940017;
+}
+
+
+.foto1 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(72 72 72 / 23%);
+    border-radius: 10px;
+    max-width: 283px;
+    margin-left: 350px;
+    gap: 35px;
+}
+
+.titulo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    padding-top: 10px;
+    padding-left: 21px;
+}
+
+.data1 {
+    padding-top: 4px;
+    padding-left: 21px;
+    font-size: 15px;
+    color: #000000ad;
+}
+
+.valor {
+    color: #484848;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    padding-top: 10px;
+    padding-left: 21px;
+}
+
+.game {
+    border: 1px solid #4848484c;
+    border-radius: 10px;
+}
+
+.listacompletajogos {
+    background-color: #F50000;
+    font-weight: bold;
+    font-size: 27px;
+    color: white;
+    padding: 170px 30px;
+    border-radius: 10px;
+    width: 193px;
+}
+
+/* OITAVA SEÇÃO */
+
+.secao8 {
+    padding: 14px 110px;
+    background-color: #F50000;
+}
+
+.gameN {
+    width: 280px;
+    height: 200px;
+    border-radius: 11px;
+}
+
+.retangulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fcicon {
+    max-width: 30px;
+}
+
+.icon {
+    margin-left: 150px;
+    gap: 50px;
+    display: flex;
+}
+
+.heart {
+    margin-left: 100px;
+}
+
+/* NONA SEÇÃO */
+
+.secao9 {
+    display: flex;
+    margin: 50px;
+}
+
+.divisao {
+    margin-left: 175px;
+    max-width: 250px;
+    border-right: 1px solid rgb(72 72 72 / 23%);
+}
+
+.info {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.sobreN {
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Markazi Text';
+}
+
+.sobreN:hover {
+    color: #940017;
+}
+
+
+.sobreNin {
+    color: #F50000;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Markazi Text';
+}
+
+.sobreNin:hover {
+    color: #940017;
+}
+
+
+.divisao1 {
+    padding-right: 101px;
+    margin-left: 30px;
+    max-width: 250px;
+    border-right: 1px solid rgb(72 72 72 / 23%);
+}
+
+.divisao2 {
+    padding-right: 35px;
+    margin-left: 30px;
+    max-width: 250px;
+    border-right: 1px solid rgb(72 72 72 / 23%);
+}
+
+.divisao3 {
+    padding-right: 50px;
+    margin-left: 30px;
+    max-width: 250px;
+    border-right: 1px solid rgb(72 72 72 / 23%);
+}
+
+/* FOOTER */
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.flex1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.bandeira {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* MEDIA QUERIE */
+
+/* RESOLUÇÃO 860PX */
+@media (max-width: 860px) {
+/* HEADER */
+
+.logoN {
+
+}
+
+.search {
+    outline: none;
+    font-size: 13px;
+    height: 20px;
+    width: 190px;
+    border: none;
+}
+
+.form {
+    color: black;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    font-size: 10px;
+}
+
+.sep {
+    margin-left: 0px;
+}
+
+.separacao {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.assis {
+    font-size: 10px;
+}
+
+/* PRIMEIRA SEÇÃO */
+
+.secao1 {
+    max-width: 860px;
+    height: 246px;
+    background-color: #668A26;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.imgdk {
+    border-radius: 14px;
+    width: 861px;
+    height: 235px;
+}
+
+/* SEGUNDA SEÇÃO */
+
+h2 {
+    font-size: 20px;
+}
+
+.secao2 {
+    margin-top: 20px;
+    padding-left: 10px;
+    gap: 10px;
+}
+
+.container2 {
+    max-width: 615px
+}
+
+.saibamais {
+    border-radius: 10px;
+    font-size: 8px;
+    padding: 6px 11px;
+}
+
+.saibamais:hover {
+    padding: 10px 15px;
+}
+
+.p {
+    font-size: 15px;
+    padding: 10px 14px;
+}
+
+.violenciafantasiosa {
+    font-size: 9px;
+}
+
+/* TERCEIRA SEÇÃO */
+
+/* MARIO */
+
+h3 {
+    font-size: 14px;
+}
+
+#emdestaque {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+/* mario */
+.mel {
+    width: 240px;
+    height: 180px;
+}
+
+.ja {
+    width: 75px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.nintendoswitch {
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-left: 7px;
+    padding-bottom: 15px;
+    padding-left: -1px;
+}
+
+.card {
+    max-width: 241px;
+}
+
+/* zelda e outros */
+.foto {
+    margin-left: 27px;
+}
+
+.zelda {
+    width: 240px;
+    height: 180px;
+}
+
+.jamboree {
+    width: 240px;
+    height: 180px;
+}
+
+.fitness{
+    width: 240px;
+    height: 180px;
+}
+
+.justdance {
+    width: 240px;
+    height: 180px;
+}
+
+.xeno {
+    width: 240px;
+    height: 180px;
+}
+
+/* QUARTA SEÇÃO */
+
+.lojadejogos {
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.store {
+    width: 775px;
+    height: 150px;
+}
+
+.cbj {
+    font-size: 17px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.comprarjogos {
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+/* QUINTA SEÇÃO */
+
+
+/* SEXTA SEÇÃO */
+.ns {
+    width: 775px;
+    height: 410px;
+}
+
+.secao6 {
+    padding-bottom: 30px;
+}
+
+.noticia {
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+/* notícia xenoblade */
+.nxeno {
+    width: 410px;
+    height: 235px;
+}
+
+.data {
+    margin: 7px 0;
+    font-size: 10px;
+}
+
+.confira {
+    font-size: 14px;
+}
+
+.saiba {
+    font-size: 13px;
+}
+
+/* notícia DK */
+.noticiadk {
+    margin-top: 9px;
+    margin-bottom: 8px;
+    margin-left: -23px;
+}
+
+.dk {
+    width: 410px;
+    height: 235px;
+}
+
+/* notícias inferiores */
+
+.noticiaJ {
+    margin-left: 8px;
+    margin-top: 0px;
+}
+
+.free {
+    width: 190px;
+    height: 114px;
+}
+
+.confira1 {
+    font-size: 17px;
+}
+
+.noticiaT {
+    margin-top: 0px;
+    margin-left: 22px;
+    margin-bottom
+}
+
+/* SÉTIMA SEÇÃO */
+
+.pixpay {
+    margin-left: 33px;
+    width: 1018px;
+    height: 214px;
+}
+
+.cartao {
+    margin-top: 35px;
+    margin-bottom: -7px;
+    margin-left: 33px;
+}
+
+/* OITAVA SEÇÃO */
+
+.foto1 {
+    margin-left: 33px;
+    gap: 18px;
+    max-width: 222px;
+    max-height: 335px;
+}
+
+.gameN {
+    width: 220px;
+    height: 167px;
+}
+
+.titulo {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 9px;
+}
+
+.data1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.valor {
+    font-size: 19px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.heart {
+    margin-left: 75px;
+}
+
+
+/* NONA SEÇÃO */
+
+.secao9 {
+    margin: 10px;
+}
+
+.divisao {
+    margin-left: 7px;
+}
+
+.info {
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.sobreN {
+    font-size: 19px;
+}
+
+.sobreNin {
+    font-size: 15px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 8px;
+    padding: 15px 23px;
+}
+
+.flex1 {
+    gap: 15px;
+}
+}
+
+/* RESOLUÇÃO 480PX */
+@media (max-width: 480px) {
+
+/* HEADER */
+
+svg {
+    width: auto;
+    height: 0;
+}
+
+.head {
+    gap: 2px;
+}
+
+.separacao {
+    gap: 1px;
+}
+
+.logoN {
+    width: 65px;
+    height: 37px;
+}
+
+.search {
+    font-size: 8px;
+    height: 10px;
+    width: 80px;
+}
+
+.form {
+    font-size: 6px;
+}
+
+.ass1 {
+    font-size: 8px;
+    max-width: 45px;
+}
+
+.outracategoria {
+    margin: 8px 0;
+    gap: 50px;
+}
+
+/* PRIMEIRA SEÇÃO */
+
+.secao1 {
+    max-width: 410px;
+    height: 160px;
+}
+
+.imgdk {
+    width: 406px;
+    height: 146px;
+}
+
+/* SEGUNDA SEÇÃO */
+
+h2 {
+    font-size: 15px;
+}
+
+.secao2 {
+    margin-top: 0;
+    padding-left: 6px;
+}
+
+.container2 {
+    max-width: 200px;
+}
+
+.violenciafantasiosa {
+    font-size: 7px;
+}
+
+/* TERCEIRA SEÇÃO */
+
+h3 {
+    font-size: 12px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+}
+
+#emdestaque {
+    margin-left: 7px;
+    margin-top: 15px;
+}
+
+.container--card {
+    margin-left: 7px;
+    margin-top: 13px;
+    max-width: 202px;
+}
+
+/* Cards de jogos */
+.card {
+    max-width: 200px;
+}
+
+.mel {
+    width: 201px;
+    height: 151px;
+}
+
+.ja {
+    width: 65px;
+    margin-left: 8px;
+    font-size: 8px;
+}
+
+.nintendoswitch {
+    font-size: 10px;
+    margin-left: 6px;
+    padding-bottom: 15px;
+}
+
+.foto {
+    margin-left: 6px;
+}
+
+.zelda {
+    width: 201px;
+    height: 151px;
+}
+
+.h3 {
+    padding-bottom: 6px;
+}
+
+.SW2 {
+    padding-bottom: 45px;
+}
+
+.jamboree {
+    width: 201px;
+    height: 151px;
+}
+
+.fitness {
+    width: 201px;
+    height: 151px;
+}
+
+.justdance {
+    width: 201px;
+    height: 151px;
+}
+
+.xeno {
+    width: 201px;
+    height: 151px;
+}
+
+.demo {
+    width: 110px;
+    margin-left: 8px;
+    font-size: 9px;
+}
+
+.reserve {
+    width: 65px;
+    margin-left: 8px;
+    font-size: 9px;
+}
+
+/* QUARTA SEÇÃO */
+
+.lojadejogos {
+    margin-left: 10px;
+}
+
+.store {
+    width: 760px;
+}
+
+.cbj {
+    font-size: 15px;
+    margin-left: 16px;
+    margin-top: 31px;
+}
+
+/* QUINTA SEÇÃO */
+
+.ns {
+    width: 760px;
+}
+
+/* SEXTA SEÇÃO */
+
+.nxeno {
+    width: 380px;
+    height: 220px;
+}
+
+.confira {
+    font-size: 12px;
+}
+
+.dk {
+    width: 380px;
+    height: 220px;
+}
+
+.noticiadk {
+    margin-left: 7px;
+}
+
+.noticia1 {
+    max-width: 394px;
+}
+
+.free {
+    width: 174px;
+    height: 108px;
+}
+
+/* SÉTIMA SEÇÃO */
+
+.pixpay {
+    margin-left: 13px;
+    width: 745px;
+    height: 155px;
+}
+
+.cartao {
+    margin-left: 19px;
+    font-size: 15px;
+}
+
+/* OITAVA SEÇÃO */
+
+.foto1 {
+    margin-left: 7px;
+    max-width: 187px;
+    max-height: 320px;
+}
+
+.gameN {
+    width: 185px;
+    height: 145px;
+}
+
+.valor {
+    font-size: 18px;
+}
+
+.heart {
+    margin-left: 142px;
+}
+
+/* NONA SEÇÃO - LOGO DA NINTENDO */
+
+.secao8 {
+    padding: 7px 6px;
+    max-width: 1000px;
+}
+
+}
